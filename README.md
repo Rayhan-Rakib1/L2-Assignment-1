@@ -1,6 +1,6 @@
 ✅ 1. What are some differences between interfaces and types in TypeScript?
 
-Ans: Both interfaces and types are used to describe the structure of data in TypeScript, but they have some key differences:
+ANS: Both interfaces and types are used to describe the structure of data in TypeScript, but they have some key differences:
 
 Interfaces are specifically designed to describe the shape of objects and are ideal for working with class-based code or object modeling.
 
@@ -12,11 +12,12 @@ While both are capable of extending other structures, interfaces are often prefe
 
 ✅ 2. What is the use of the keyof keyword in TypeScript?
 
-The keyof keyword is used to get a union of all property names (keys) of a given object type. It’s very useful when you want to restrict access to certain keys of an object dynamically, ensuring type safety.
+ANS:  The keyof keyword is used to get a union of all property names (keys) of a given object type. It’s very useful when you want to restrict access to certain keys of an object dynamically, ensuring type safety.
 
 For example, if you have an object with properties like name and age, keyof will allow you to create a variable or function that only accepts "name" or "age" as input — preventing errors like misspelled keys or accessing undefined properties. This helps create more robust and reusable code.
 
 ✅ 3. Explain the difference between any, unknown, and never types in TypeScript.
+ANS: --
 any: Disables type checking. You can assign anything to it and perform any operation — useful in quick prototypes, but dangerous in large projects due to lack of safety.
 
 unknown: A safer version of any. You can assign any value to it, but you must perform type checks before using it — promoting safer coding practices.
@@ -24,7 +25,8 @@ unknown: A safer version of any. You can assign any value to it, but you must pe
 never: Represents a value that will never occur. It's used for functions that never return (like functions that always throw errors or have infinite loops). It helps indicate unreachable or erroneous states in your program.
 
 ✅ 4. What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
-Enums (short for “enumerations”) allow you to define a set of named constants — a group of related values under one name. They make your code more readable and less error-prone when dealing with predefined options.
+
+ANS:  Enums (short for “enumerations”) allow you to define a set of named constants — a group of related values under one name. They make your code more readable and less error-prone when dealing with predefined options.
 
 Numeric enums assign numbers (by default starting from 0) to each member.
 
