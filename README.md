@@ -1,5 +1,6 @@
 ✅ 1. What are some differences between interfaces and types in TypeScript?
-Both interfaces and types are used to describe the structure of data in TypeScript, but they have some key differences:
+
+Ans: Both interfaces and types are used to describe the structure of data in TypeScript, but they have some key differences:
 
 Interfaces are specifically designed to describe the shape of objects and are ideal for working with class-based code or object modeling.
 
@@ -10,6 +11,7 @@ Interfaces support declaration merging, meaning you can define the same interfac
 While both are capable of extending other structures, interfaces are often preferred for building public APIs and libraries because they are more readable and semantically clear.
 
 ✅ 2. What is the use of the keyof keyword in TypeScript?
+
 The keyof keyword is used to get a union of all property names (keys) of a given object type. It’s very useful when you want to restrict access to certain keys of an object dynamically, ensuring type safety.
 
 For example, if you have an object with properties like name and age, keyof will allow you to create a variable or function that only accepts "name" or "age" as input — preventing errors like misspelled keys or accessing undefined properties. This helps create more robust and reusable code.
